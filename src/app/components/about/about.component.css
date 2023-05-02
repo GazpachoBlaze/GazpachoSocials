@@ -1,0 +1,9 @@
+.border {
+    border-style: groove;
+    margin-right: 700px;
+    margin-bottom: 500px;
+}
+
+.leftAbout {
+    text-align: left;
+}
