@@ -1,0 +1,14 @@
+.aboutPage {
+    border: 2px solid black;
+    border-radius: 10%;
+    margin-right: 85%;
+    padding: 10px;
+
+    display: inline-block;
+    flex-direction: row;
+    justify-content: left;
+
+
+    min-width:min-content;
+    max-width:max-content;
+}
