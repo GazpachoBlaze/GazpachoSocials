@@ -1,5 +1,5 @@
 .listLinks {
-    background-image: linear-gradient(rgb(0, 100, 120), rgb(4, 180, 210));
+    background-image: linear-gradient(rgb(0, 138, 165), rgb(0, 110, 130));
     border: 3px solid black;
     border-radius: 20px 20px 20px 20px;
     margin-left:85%;
@@ -16,6 +16,7 @@
 
 a {
     font-size: 20px;
+    color: black;
 }
 
 a:visited {
@@ -24,7 +25,7 @@ a:visited {
 
 
 #Twitch {
-    background-color: rgba(125, 125, 125, 0.5);;
+    background-color: rgba(125, 125, 125, 0.5);
     font-family: "Roboto", sans-serif;
     display: flex;
     align-items: center;
@@ -44,7 +45,7 @@ a:visited {
 
 
 #Twitter {
-    background-color: rgba(125, 125, 125, 0.5);;
+    background-color: rgba(125, 125, 125, 0.5);
     font-family: "Roboto", sans-serif;
     display: flex;
     align-items: center;
@@ -85,7 +86,7 @@ a:visited {
 
 
 #Youtube {
-    background-color: rgba(125, 125, 125, 0.5);;
+    background-color: rgba(125, 125, 125, 0.5);
     font-family: "Roboto", sans-serif;
     display: flex;
     align-items: center;
@@ -105,7 +106,7 @@ a:visited {
 
 
 #Instagram {
-    background-color: rgba(125, 125, 125, 0.5);;
+    background-color: rgba(125, 125, 125, 0.5);
     font-family: "Roboto", sans-serif;
     display: flex;
     align-items: center;
