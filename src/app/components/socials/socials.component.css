@@ -1,16 +1,11 @@
 .listLinks {
-    background-image: linear-gradient(rgb(0, 217, 255), rgb(255, 255, 0));
+    background-image: linear-gradient(rgb(0, 100, 120), rgb(4, 180, 210));
     border: 3px solid black;
     border-radius: 20px 20px 20px 20px;
     margin-left:85%;
     margin-top: -7%;
     margin-bottom: 5px;
-    padding: 20px;
-
-    position: relative;
-
-    min-width:min-content;
-    max-width:max-content;
+    padding: 20px;;
 }
 
 #socialHeader {
@@ -19,52 +14,111 @@
     font-size: 30px;
 }
 
-section button:nth-of-type(1) {
-    transform: rotate(-10deg);
-    text-align: center;
-    padding: 2px;
-    border: 2px solid black;
-    font-size:20px;
-}
-
-section button:nth-of-type(2) {
-    transform: rotate(10deg);
-    text-align: center;
-    padding: 2px;
-    margin: 8% 20%;
-    border: 2px solid black;
-}
-
-section button:nth-of-type(3) {
-    transform: rotate(-10deg);
-    text-align: center;
-    padding: 2px;
-    margin: 8% 20%;
-    border: 2px solid black;
-}
-
-section button:nth-of-type(4) {
-    transform: rotate(10deg);
-    text-align: center;
-    padding: 2px;
-    margin: 8% 20%;
-    border: 2px solid black;
-}
-
-section button:nth-of-type(5) {
-    color: white;
-    transform: rotate(-8deg);
-    text-align: center;
-    padding: 2px;
-    margin: 8% 20%;
-    border: 2px solid black;
-}
-
 a {
-    color: black;
+    font-size: 20px;
 }
 
 a:visited {
-    color: pink;
+    color: rgb(0, 255, 68);
 }
 
+
+#Twitch {
+    background-color: rgba(125, 125, 125, 0.5);;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid;
+    padding: 1em 2em;
+    font-size: 1em;
+    transition: all 0.25s;
+}
+#Twitch:hover {
+    border-color: rgb(150, 0, 255);
+    color: white;
+    box-shadow: 0 0.7em 1em -0.7em rgb(150, 0, 255);
+    transform: translateY(-0.25em);
+    cursor: pointer;
+}
+
+
+#Twitter {
+    background-color: rgba(125, 125, 125, 0.5);;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid;
+    padding: 1em 2em;
+    font-size: 1em;
+    transition: all 0.25s;
+}
+#Twitter:hover {
+    border-color: rgb(0, 250, 255);
+    color: white;
+    box-shadow: 0 0.7em 1em -0.7em rgb(0, 250, 255);
+    transform: translateY(-0.25em);
+    cursor: pointer;
+}
+
+
+#TikTok {
+    background-color: rgba(125, 125, 125, 0.5);
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid;
+    padding: 1em 2em;
+    font-size: 1em;
+    transition: all 0.25s;
+}
+
+#TikTok:hover {
+    border-color: rgb(60, 203, 0);
+    color: white;
+    box-shadow: 0 0.7em 1em -0.7em rgb(60, 203, 0);
+    transform: translateY(-0.25em);
+    cursor: pointer;
+}
+
+
+#Youtube {
+    background-color: rgba(125, 125, 125, 0.5);;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid;
+    padding: 1em 2em;
+    font-size: 1em;
+    transition: all 0.25s;
+}
+#Youtube:hover {
+    border-color: rgb(255, 0, 0);
+    color: white;
+    box-shadow: 0 0.7em 1em -0.7em rgb(255, 0, 0);
+    transform: translateY(-0.25em);
+    cursor: pointer;
+}
+
+
+#Instagram {
+    background-color: rgba(125, 125, 125, 0.5);;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid;
+    padding: 1em 2em;
+    font-size: 1em;
+    transition: all 0.25s;
+}
+#Instagram:hover {
+    border-color: rgb(255, 238, 0);
+    color: white;
+    box-shadow: 0 0.7em 1em -0.7em rgb(255, 238, 0);
+    transform: translateY(-0.25em);
+    cursor: pointer;
+}
