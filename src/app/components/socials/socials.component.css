@@ -10,7 +10,7 @@
     position: relative;
 }
 .listLinks:hover {
-    border-color: rgb(95, 100, 255);
+    border-color: rgb(250, 200, 250);
     box-shadow: 1.5em 1.5em 2em -0.7em;
 }
 
@@ -108,9 +108,9 @@ a:visited {
     transition: all 0.25s;
 }
 #Youtube:hover {
-    border-color: rgb(60, 203, 0);
+    border-color: rgb(255, 0, 0);
     color: white;
-    box-shadow: 0 0.7em 1em -0.7em rgb(60, 203, 0);
+    box-shadow: 0 0.7em 1em -0.7em rgb(255, 0, 0);
     transform: translateY(-0.25em);
     cursor: pointer;
 }
@@ -129,9 +129,9 @@ a:visited {
 }
 
 #Instagram:hover {
-    border-color: rgb(60, 203, 0);
+    border-color: rgb(220, 210, 0);
     color: white;
-    box-shadow: 0 0.7em 1em -0.7em rgb(60, 203, 0);
+    box-shadow: 0 0.7em 1em -0.7em rgb(220, 210, 0);
     transform: translateY(-0.25em);
     cursor: pointer;
 }
