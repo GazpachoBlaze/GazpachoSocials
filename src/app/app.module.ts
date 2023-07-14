@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './routing/app-routing.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { MatGridListModule } from '@angular/material/grid-list';
 
 import { AppComponent } from './app.component';
 
@@ -36,6 +37,7 @@ import { WishlistComponent } from './components/wishlist/wishlist.component';
     BrowserAnimationsModule,
     FlexLayoutModule,
     AppRoutingModule,
+    MatGridListModule,
   ],
 
   providers: [],
