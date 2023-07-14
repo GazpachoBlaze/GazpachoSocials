@@ -7,7 +7,8 @@
     margin-bottom: 3px;
     padding: 15px;
     padding-bottom: 30px;
-    position: relative;
+
+    
 }
 .listLinks:hover {
     border-color: rgb(250, 200, 250);

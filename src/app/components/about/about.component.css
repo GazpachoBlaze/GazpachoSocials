@@ -1,12 +1,12 @@
 .aboutPage {
     border: 2px solid black;
     border-radius: 10%;
-    margin-right: 85%;
+    margin-right: 60%;
     padding: 10px;
 
     display: inline-block;
     flex-direction: row;
-    justify-content: left;
+    justify-content: center;
 
 
     min-width:min-content;
