@@ -4,12 +4,8 @@
     margin-right: 20%;
     margin-left: 20%;
     
-    display: inline-block;
+    display: flex;
     flex-direction: row;
-    justify-content: center;
-
-
-    min-width:min-content;
-    max-width:max-content;
+    
 
 }
