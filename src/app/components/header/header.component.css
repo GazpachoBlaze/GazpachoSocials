@@ -1,9 +1,5 @@
-.border {
-    border-style: groove;
-    border-color: blue;
-    
-}
-
 .topHeader {
     text-align: center;
+    color: white;
+    background-color: rgb(10, 12, 88);
 }

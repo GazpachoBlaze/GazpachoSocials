@@ -1,11 +1,4 @@
 .homePage {
     border: 2px solid black;
     border-radius: 1px;
-    margin-right: 20%;
-    margin-left: 20%;
-    
-    display: flex;
-    flex-direction: row;
-    
-
 }
