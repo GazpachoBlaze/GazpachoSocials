@@ -14,6 +14,7 @@ import { StatsComponent } from './components/stats/stats.component';
 import { BottomComponent } from './components/bottom/bottom.component';
 import { HomiesComponent } from './components/homies/homies.component';
 import { WishlistComponent } from './components/wishlist/wishlist.component';
+import { Home2Component } from './components/home2/home2.component';
 
 
 
@@ -28,6 +29,7 @@ import { WishlistComponent } from './components/wishlist/wishlist.component';
     BottomComponent,
     HomiesComponent,
     WishlistComponent,
+    Home2Component,
 
   ],
 
