@@ -3,4 +3,7 @@
     border-radius: 10%;
     margin-left: 85%;
     padding: 10px;
+    transform: translateX(-525px);
+    height: 400px;
+    width: 600px;
 }
