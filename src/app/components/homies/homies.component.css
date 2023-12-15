@@ -4,6 +4,10 @@
     margin-left: 85%;
     padding: 10px;
     transform: translateX(-525px);
-    height: 400px;
+    height: 300px;
     width: 600px;
+}
+
+.squadTitle {
+    text-align: center;
 }
