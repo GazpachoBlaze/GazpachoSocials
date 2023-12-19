@@ -27,30 +27,61 @@
     border-top-left-radius: 40px;
     border-bottom-left-radius: 40px;
     width: 250px;
-    height: 40px;
+    height: 50px;
     color: black;
+    font-size: 20px;
 }
 
 #nikki {
     background-color: pink;    
 }
+#nikkiPNG {
+    border-radius: 50px;
+    height: 45px;
+    width: 45px;
+}
 
 #mamicitaaa {
     background-color: rgb(255, 0, 255);    
+}
+#mamicitaaaPNG {
+    border-radius: 50px;
+    height: 45px;
+    width: 45px;
 }
 
 #king_eiii {
     background-color: gold;    
 }
+#eiiiPNG {
+    border-radius: 50px;
+    height: 45px;
+    width: 45px;
+}
 
 #mahoganywtf {
     background-color: red;    
+}
+#mahoganyPNG {
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
 }
 
 #chiieflo {
     background-color: rgb(51, 74, 241);    
 }
+#layyJPG {
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+}
 
 #samuwhyy {
     background-color: rgb(63, 200, 63);    
+}
+#samPNG {
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
 }
