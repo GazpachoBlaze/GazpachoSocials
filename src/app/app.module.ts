@@ -19,6 +19,9 @@ import { WishlistComponent } from './components/wishlist/wishlist.component';
 
 
 
+
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -31,7 +34,6 @@ import { WishlistComponent } from './components/wishlist/wishlist.component';
     BottomComponent,
     HomiesComponent,
     WishlistComponent,
-    
 
   ],
 
