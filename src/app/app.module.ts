@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { AppRoutingModule } from './routing/app-routing.module';
+import { AppRoutingModule, routingComponents } from './routing/app-routing.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FlexLayoutModule } from '@angular/flex-layout';
 
@@ -22,9 +22,13 @@ import { WishlistComponent } from './components/wishlist/wishlist.component';
 
 
 
+
+
 @NgModule({
   declarations: [
     AppComponent,
+    routingComponents,
+    
     HeaderComponent,
     HomeComponent,
     Home2Component,
@@ -35,6 +39,12 @@ import { WishlistComponent } from './components/wishlist/wishlist.component';
     HomiesComponent,
     WishlistComponent,
 
+
+
+  ],
+
+  exports: [
+    AppComponent
   ],
 
   imports: [

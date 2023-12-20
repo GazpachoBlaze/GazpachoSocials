@@ -1,17 +1,15 @@
 import { NgModule } from "@angular/core";
 import { Routes, RouterModule } from "@angular/router";
 
+import { MamicitaaaComponent } from '../support/mamicitaaa/mamicitaaa.component';
 
-import { HeaderComponent } from "../components/header/header.component";
-import { HomeComponent } from "../components/home/home.component";
-
-
-
+import { MainComponent } from '../pages/main/main.component';
 
 
 const routes: Routes = [
-    { path: "header", component: HeaderComponent },
-    { path: "home", component: HomeComponent },
+    { path: "mamicitaaa", component: MamicitaaaComponent },
+
+    { path: "main", component: MainComponent },
 
 ];
 
@@ -23,3 +21,8 @@ const routes: Routes = [
 })
 
 export class AppRoutingModule { }
+
+export const routingComponents = [
+    MamicitaaaComponent,
+    MainComponent,
+]
