@@ -1,0 +1,116 @@
+a {
+    font-size: 20px;
+    color: black;
+    width: 100%;
+}
+
+a:visited {
+    color: blue;
+}
+
+.buttons {
+    margin-left: 25%;
+}
+
+#Twitch {
+    background-color: white;
+    font-family: "Roboto", sans-serif;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid;
+    padding: 1em 2em;
+    font-size: 1em;
+    transition: all 0.25s;
+}
+#Twitch:hover {
+    border-color: rgb(150, 0, 255);
+    color: white;
+    box-shadow: 0 0.7em 1em -0.7em rgb(150, 0, 255);
+    transform: translateY(-0.25em);
+    cursor: pointer;
+}
+
+#TikTok {
+    background-color: white;
+    font-family: "Roboto", sans-serif;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid;
+    padding: 1em 2em;
+    font-size: 1em;
+    transition: all 0.25s;
+}
+
+#TikTok:hover {
+    border-color: rgb(60, 203, 0);
+    color: white;
+    box-shadow: 0 0.7em 1em -0.7em rgb(60, 203, 0);
+    transform: translateY(-0.25em);
+    cursor: pointer;
+}
+
+#Twitter {
+    background-color: white;
+    font-family: "Roboto", sans-serif;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid;
+    padding: 1em 2em;
+    font-size: 1em;
+    transition: all 0.25s;
+}
+#Twitter:hover {
+    border-color: rgb(0, 250, 255);
+    color: white;
+    box-shadow: 0 0.7em 1em -0.7em rgb(0, 250, 255);
+    transform: translateY(-0.25em);
+    cursor: pointer;
+}
+
+#Instagram {
+    background-color: white;
+    font-family: "Roboto", sans-serif;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid;
+    padding: 1em 2em;
+    font-size: 1em;
+    transition: all 0.25s;
+}
+
+#Instagram:hover {
+    border-color: rgb(220, 210, 0);
+    color: white;
+    box-shadow: 0 0.7em 1em -0.7em rgb(220, 210, 0);
+    transform: translateY(-0.25em);
+    cursor: pointer;
+}
+
+#Youtube {
+    background-color: white;
+    font-family: "Roboto", sans-serif;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid;
+    padding: 1em 2em;
+    font-size: 1em;
+    transition: all 0.25s;
+}
+#Youtube:hover {
+    border-color: rgb(255, 0, 0);
+    color: white;
+    box-shadow: 0 0.7em 1em -0.7em rgb(255, 0, 0);
+    transform: translateY(-0.25em);
+    cursor: pointer;
+}
+
