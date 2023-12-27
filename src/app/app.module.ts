@@ -15,7 +15,7 @@ import { StatsComponent } from './components/stats/stats.component';
 import { BottomComponent } from './components/bottom/bottom.component';
 import { HomiesComponent } from './components/homies/homies.component';
 import { WishlistComponent } from './components/wishlist/wishlist.component';
-import { EiiiComponent } from './support/eiii/eiii.component';
+
 
 
 
@@ -39,10 +39,7 @@ import { EiiiComponent } from './support/eiii/eiii.component';
     BottomComponent,
     HomiesComponent,
     WishlistComponent,
-    EiiiComponent,
-
-
-
+  
   ],
 
   exports: [

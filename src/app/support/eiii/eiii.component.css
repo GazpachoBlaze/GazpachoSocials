@@ -1,0 +1,159 @@
+#mermaid {
+    height: 200px;
+    width: 200px;
+    border-radius: 60%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+#mami {
+    text-align: center;
+}
+body {
+    background-image: linear-gradient(to right, black, yellow);
+}
+a {
+    font-size: 20px;
+    color: black;
+    width: 100%;
+}
+
+
+.buttons {
+    transform: translateX(30%);
+
+}
+
+#Website {
+    background-color: white;
+    font-family: "Roboto", sans-serif;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid;
+    padding: 1em 2em;
+    font-size: 1em;
+    transition: all 0.25s;
+    margin-bottom: 20px;
+}
+#Website:hover {
+    border-color: rgb(150, 0, 255);
+    color: white;
+    box-shadow: 0 0.7em 1em -0.7em rgb(150, 0, 255);
+    transform: translateY(-0.25em);
+    cursor: pointer;
+}
+
+#Twitch {
+    background-color: white;
+    font-family: "Roboto", sans-serif;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid;
+    padding: 1em 2em;
+    font-size: 1em;
+    transition: all 0.25s;
+    margin-bottom: 20px;
+}
+#Twitch:hover {
+    border-color: rgb(150, 0, 255);
+    color: white;
+    box-shadow: 0 0.7em 1em -0.7em rgb(150, 0, 255);
+    transform: translateY(-0.25em);
+    cursor: pointer;
+}
+
+#TikTok {
+    background-color: white;
+    font-family: "Roboto", sans-serif;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid;
+    padding: 1em 2em;
+    font-size: 1em;
+    transition: all 0.25s;
+    margin-bottom: 20px;
+}
+
+#TikTok:hover {
+    border-color: rgb(60, 203, 0);
+    color: white;
+    box-shadow: 0 0.7em 1em -0.7em rgb(60, 203, 0);
+    transform: translateY(-0.25em);
+    cursor: pointer;
+}
+
+#Twitter {
+    background-color: white;
+    font-family: "Roboto", sans-serif;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid;
+    padding: 1em 2em;
+    font-size: 1em;
+    transition: all 0.25s;
+    margin-bottom: 20px;
+}
+#Twitter:hover {
+    border-color: rgb(0, 250, 255);
+    color: white;
+    box-shadow: 0 0.7em 1em -0.7em rgb(0, 250, 255);
+    transform: translateY(-0.25em);
+    cursor: pointer;
+}
+
+#Instagram {
+    background-color: white;
+    font-family: "Roboto", sans-serif;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid;
+    padding: 1em 2em;
+    font-size: 1em;
+    transition: all 0.25s;
+    margin-bottom: 20px;
+}
+
+#Instagram:hover {
+    border-color: rgb(220, 210, 0);
+    color: white;
+    box-shadow: 0 0.7em 1em -0.7em rgb(220, 210, 0);
+    transform: translateY(-0.25em);
+    cursor: pointer;
+}
+
+#Youtube {
+    background-color: white;
+    font-family: "Roboto", sans-serif;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid;
+    padding: 1em 2em;
+    font-size: 1em;
+    transition: all 0.25s;
+    margin-bottom: 15em;
+
+    
+}
+#Youtube:hover {
+    border-color: rgb(255, 0, 0);
+    color: white;
+    box-shadow: 0 0.7em 1em -0.7em rgb(255, 0, 0);
+    transform: translateY(-0.25em);
+    cursor: pointer;
+}
+
