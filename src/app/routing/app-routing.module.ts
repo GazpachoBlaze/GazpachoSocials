@@ -5,6 +5,7 @@ import { MamicitaaaComponent } from '../support/mamicitaaa/mamicitaaa.component'
 
 import { MainComponent } from '../pages/main/main.component';
 import { EiiiComponent } from '../support/eiii/eiii.component';
+import { HoggyComponent } from '../support/hoggy/hoggy.component';
 
 
 const routes: Routes = [
@@ -12,6 +13,7 @@ const routes: Routes = [
 
     { path: "main", component: MainComponent },
     { path: "eiii", component: EiiiComponent },
+    { path: "mahogany", component: HoggyComponent},
 
 ];
 
@@ -29,4 +31,5 @@ export const routingComponents = [
 
     MainComponent,
     EiiiComponent,
+    HoggyComponent,
 ]
