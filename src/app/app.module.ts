@@ -15,7 +15,7 @@ import { StatsComponent } from './components/stats/stats.component';
 import { BottomComponent } from './components/bottom/bottom.component';
 import { HomiesComponent } from './components/homies/homies.component';
 import { WishlistComponent } from './components/wishlist/wishlist.component';
-import { LayyComponent } from './support/layy/layy.component';
+
 
 
 
@@ -41,7 +41,7 @@ import { LayyComponent } from './support/layy/layy.component';
     BottomComponent,
     HomiesComponent,
     WishlistComponent,
-    LayyComponent,
+
   
   ],
 
