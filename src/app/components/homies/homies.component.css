@@ -12,6 +12,7 @@
 
 .squadTitle {
     text-align: center;
+    color: wheat;
 }
 
 #row2 {
@@ -30,7 +31,7 @@
     border-bottom-left-radius: 40px;
     width: 250px;
     height: 55px;
-    color: black;
+    color: rgb(0, 0, 0);
     font-size: 20px;
 }
 
@@ -43,14 +44,14 @@
     width: 45px;
 }
 
-#mamicitaaa {
+/* #mamicitaaa {
     background-color: rgb(255, 115, 255);    
 }
 #mamicitaaaPNG {
     border-radius: 50px;
     height: 45px;
     width: 45px;
-}
+} */
 
 #king_eiii {
     background-color: gold;    
@@ -86,4 +87,27 @@
     border-radius: 50%;
     height: 45px;
     width: 45px;
+}
+
+@media (max-width: 1800px) {
+    .nikkiLink {
+        transform: translateX(-10px);
+    }
+    .e3Link {
+        transform: translateX(-10px);
+    }
+    .hoggyLink {
+        transform: translateX(-5px);
+    }
+    .layyLink {
+        transform: translateX(-10px);
+    }
+    .samLink {
+        transform: translateX(-5px);
+    }
+
+    .homiesPage {transform: translateX(-450px);
+        height: 350px;
+        width: 520px;
+    }
 }

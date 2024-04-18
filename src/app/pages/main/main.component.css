@@ -1,5 +1,6 @@
 body {
-    background-image: url(../../../assets/images/digitalCity.jpg);
+    /* background-image: url(../../../assets/images/minecraftOcean.png); */
     background-repeat: no-repeat;
     background-size: cover;
+    background-image: linear-gradient(rgb(210, 180, 0), rgb(20, 0, 150));
 }
