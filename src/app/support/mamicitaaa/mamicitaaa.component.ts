@@ -1,10 +1,10 @@
-import { Component } from '@angular/core';
+// import { Component } from '@angular/core';
 
-@Component({
-  selector: 'app-mamicitaaa',
-  templateUrl: './mamicitaaa.component.html',
-  styleUrls: ['./mamicitaaa.component.css']
-})
-export class MamicitaaaComponent {
+// @Component({
+//   selector: 'app-mamicitaaa',
+//   templateUrl: './mamicitaaa.component.html',
+//   styleUrls: ['./mamicitaaa.component.css']
+// })
+// export class MamicitaaaComponent {
 
-}
+// }

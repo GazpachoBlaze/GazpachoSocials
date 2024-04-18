@@ -1,7 +1,7 @@
 import { NgModule } from "@angular/core";
 import { Routes, RouterModule } from "@angular/router";
 
-import { MamicitaaaComponent } from '../support/mamicitaaa/mamicitaaa.component';
+// import { MamicitaaaComponent } from '../support/mamicitaaa/mamicitaaa.component';
 
 import { MainComponent } from '../pages/main/main.component';
 import { EiiiComponent } from '../support/eiii/eiii.component';
@@ -10,9 +10,9 @@ import { LayyComponent } from '../support/layy/layy.component';
 
 
 const routes: Routes = [
-    { path: "mamicitaaa", component: MamicitaaaComponent },
+    // { path: "mamicitaaa", component: MamicitaaaComponent },
 
-    { path: "main", component: MainComponent },
+    { path: "", component: MainComponent },
     { path: "eiii", component: EiiiComponent },
     { path: "mahogany", component: HoggyComponent},
     { path: "chiieflo", component: LayyComponent},
@@ -29,7 +29,7 @@ const routes: Routes = [
 export class AppRoutingModule { }
 
 export const routingComponents = [
-    MamicitaaaComponent,
+    // MamicitaaaComponent,
 
     MainComponent,
     EiiiComponent,

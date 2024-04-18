@@ -4,7 +4,18 @@
     padding: 10px;
     height: 400px;
 }
+.statList {
+    
+}
 
 p {
     color: white;
+}
+
+h1 {
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    color: rgb(151, 255, 140);
+    border-radius: 2px solid black;
 }
