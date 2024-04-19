@@ -3,9 +3,11 @@
     border-radius: 10%;
     margin-left: 86%;
     padding: 20px;
-    transform: translateX(-525px);
-    height: 350px;
-    width: 600px;
+    transform: translateX(-480px);
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -29,10 +31,12 @@
     border-bottom-right-radius: 50px;
     border-top-left-radius: 40px;
     border-bottom-left-radius: 40px;
-    width: 250px;
-    height: 55px;
+    width: 100%;
+    min-width:fit-content ;
+    height: 3em;
     color: rgb(0, 0, 0);
-    font-size: 20px;
+    font-size: 25px;
+    font-weight: 500;
 }
 
 #nikki {
@@ -63,7 +67,7 @@
 }
 
 #mahoganywtf {
-    background-color: rgb(51, 74, 241);    
+    background-color: rgb(67, 85, 215);    
 }
 #mahoganyPNG {
     border-radius: 50%;
@@ -72,7 +76,7 @@
 }
 
 #chiieflo {
-    background-color: red;    
+    background-color: rgb(225, 34, 34);    
 }
 #layyJPG {
     border-radius: 50%;
@@ -90,24 +94,7 @@
 }
 
 @media (max-width: 1800px) {
-    .nikkiLink {
-        transform: translateX(-10px);
-    }
-    .e3Link {
-        transform: translateX(-10px);
-    }
-    .hoggyLink {
-        transform: translateX(-5px);
-    }
-    .layyLink {
-        transform: translateX(-10px);
-    }
-    .samLink {
-        transform: translateX(-5px);
-    }
-
-    .homiesPage {transform: translateX(-450px);
-        height: 350px;
-        width: 520px;
+    .homiesPage {
+        transform: translateX(-450px);
     }
 }
