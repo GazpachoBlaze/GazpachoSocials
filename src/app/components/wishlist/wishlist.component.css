@@ -3,7 +3,7 @@
     border-radius: 1cqb;
     padding: 30px;
     height: 150px;
-    width: 600px;
+    display: flex;
 }
 
 p {
