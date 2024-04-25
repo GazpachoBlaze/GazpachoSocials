@@ -120,7 +120,7 @@
 @media (max-width: 1500px) {
     .homiesPage {
         transform: translateX(-400px);
-        height: 450px;
+        height: 500px;
     }
     .homieButtons {
         display: flex;
@@ -174,7 +174,35 @@
 
 @media (max-width: 700px) {
     .homiesPage {
-        transform: translateX(-160px);
+        transform: translateX(-180px);
         width: 200px;
     }
+    .homieButtons {
+        border: 1px solid black;
+        border-top-right-radius: 50px;
+        border-bottom-right-radius: 50px;
+        border-top-left-radius: 50px;
+        border-bottom-left-radius: 50px;
+        width: 100%;
+        display: flex;
+        min-width:fit-content ;
+        height: 2em;
+        color: rgb(0, 0, 0);
+        font-size: 25px;
+        font-weight: 500;
+    }
+    .e3Link {
+        transform: translateX(20px);
+    }
+    .hoggyLink {
+        transform: translate(-80px, 100px);
+    }
+    .layyLink {
+        transform: translate(30px, 110px);
+    }
+    .samLink {
+        transform: translate(-80px, 185px);
+    }
+
+
 }
